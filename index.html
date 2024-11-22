@@ -1,0 +1,58 @@
+<form id="htmlForm">
+    <label for="name">Name:</label>
+    <input type="text" name="name">
+
+    <label for="phone">Phone:</label>
+    <input type="tel" name="phone">
+
+    <label for="email">Email:</label>
+    <input type="email" name="email"> 
+
+    <label for="position">Select Position</label>
+    <select id="position" required>
+        <option value="" disabled selected>Select your position</option>
+        <option value="SR">SR</option>
+        <option value="SS">SS</option>
+        <option value="AM">AM</option>
+        <option value="RM">RM</option>
+        <option value="SM">SM</option>
+    </select>
+
+    <!-- Checkboxes -->
+    <label>Select Your Interests:</label>
+    <div class="checkbox-group">
+        <label><input type="checkbox" name="interests" value="Technology"> Technology</label>
+        <label><input type="checkbox" name="interests" value="Gaming"> Gaming</label>
+        <label><input type="checkbox" name="interests" value="Travel"> Travel</label>
+        <label><input type="checkbox" name="interests" value="Music"> Music</label>
+    </div>
+
+    <!-- Radio Buttons -->
+    <label>Select Your Gender:</label>
+    <div class="radio-group">
+        <label><input type="radio" id="gender" name="gender" value="Male"> Male</label>
+        <label><input type="radio" id="gender" name="gender" value="Female"> Female</label>
+        <label><input type="radio" id="gender" name="gender" value="Other"> Other</label>
+    </div>
+
+    <!-- Rating -->
+    <label>Rating:</label>
+    <div class="rating">
+        <input type="radio" id="star5" name="rating" value="5">
+        <label for="star5" title="5 stars">&#9733;</label>
+        <input type="radio" id="star4" name="rating" value="4">
+        <label for="star4" title="4 stars">&#9733;</label>
+        <input type="radio" id="star3" name="rating" value="3">
+        <label for="star3" title="3 stars">&#9733;</label>
+        <input type="radio" id="star2" name="rating" value="2">
+        <label for="star2" title="2 stars">&#9733;</label>
+        <input type="radio" id="star1" name="rating" value="1">
+        <label for="star1" title="1 star">&#9733;</label>
+    </div>
+
+    <label for="message">Message:</label>
+    <textarea name="message" rows="4"></textarea>
+
+    <input type="submit" value="Submit">
+</form>
+<p class="success-message" id="successMessage">Congrats 🎉 Your response is reserved. Please wait for <span id="countdown">3</span> seconds to submit your next response.</p>
