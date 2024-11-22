@@ -44,7 +44,7 @@ I'm thrilled to share a form I recently built that combines functionality with a
 🎯 **Try it Out**  
 This form is perfect for customer feedback, surveys, or even event registrations. With a little tweaking, it can suit any purpose!
 
-🚀 ![Check Out the Code]([https://github.com/M2Masum/HTML-Form/tree/main])  
+🚀 [Check Out the Code]([https://github.com/M2Masum/HTML-Form])  
 Feel free to reach out if you'd like me to build something like this for you. Let's collaborate! 🙌
 
 ---
