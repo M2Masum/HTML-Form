@@ -44,24 +44,9 @@ I'm thrilled to share a form I recently built that combines functionality with a
 🎯 **Try it Out**  
 This form is perfect for customer feedback, surveys, or even event registrations. With a little tweaking, it can suit any purpose!
 
-🚀 ![Check Out the Code](https://github.com/YourGitHubLinkHere)  
+🚀 ![Check Out the Code]([https://github.com/M2Masum/HTML-Form])  
 Feel free to reach out if you'd like me to build something like this for you. Let's collaborate! 🙌
 
 ---
 
 What do you think? I'd love to hear your feedback or suggestions for improvements. Drop a ⭐ if you found this interesting! 😊
-
-### Screenshots & GIFs 🎥
-
-1️⃣ **Form Overview**  
-![Full Form](https://yourlink.com/form-full.png)
-
-2️⃣ **Interactive Features in Action**  
-- **Hover Effects**  
-  ![Hover Effects](https://yourlink.com/hover.gif)
-  
-- **Star Rating Animation**  
-  ![Star Rating](https://yourlink.com/rating.gif)
-
-3️⃣ **Success Message with Countdown**  
-  ![Success Message](https://yourlink.com/success.gif)
