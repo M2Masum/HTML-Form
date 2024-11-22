@@ -1,0 +1,158 @@
+  <style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background: linear-gradient(135deg, #1e3c72, #2a5298);
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        color: #fff;
+    }
+
+    form {
+        background: linear-gradient(145deg, #ffffff, #e0e0e0);
+        border-radius: 16px;
+        padding: 30px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        width: 100%;
+        max-width: 500px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    form::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 200%;
+        height: 100%;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0.6), transparent);
+        transform: translateX(-50%) rotate(45deg);
+        animation: glossy-move 3s infinite linear;
+        pointer-events: none;
+    }
+
+    @keyframes glossy-move {
+        from {
+            transform: translateX(-50%) rotate(45deg);
+        }
+        to {
+            transform: translateX(150%) rotate(45deg);
+        }
+    }
+
+    h2 {
+        text-align: center;
+        color: #fff;
+        font-size: 1.8em;
+        margin-bottom: 20px;
+    }
+
+    label {
+        font-weight: bold;
+        margin: 10px 0 5px;
+        display: block;
+        font-size: 1em;
+        color: #555;
+    }
+
+    input,
+    select,
+    textarea {
+        width: 100%;
+        padding: 12px;
+        margin: 5px 0 15px;
+        border: none;
+        border-radius: 8px;
+        box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.2);
+        background: linear-gradient(145deg, #f3f3f3, #e0e0e0);
+        color: #333;
+        font-size: 1em;
+        outline: none;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    input:hover,
+    select:hover,
+    textarea:hover {
+        transform: translateY(-3px);
+        box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus {
+        border: 2px solid #4caf50;
+        background: linear-gradient(145deg, #e0ffe0, #c4ffc4);
+    }
+
+    input[type="checkbox"],
+    input[type="radio"] {
+        width: auto;
+        margin-right: 8px;
+    }
+
+    input[type="submit"] {
+        background: linear-gradient(145deg, #4caf50, #2e7d32);
+        color: #ffffff;
+        padding: 12px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 1em;
+        transition: background 0.3s ease, transform 0.2s ease;
+        width: 100%;
+    }
+
+    input[type="submit"]:hover {
+        background: linear-gradient(145deg, #66bb6a, #43a047);
+        transform: translateY(-3px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .rating {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .rating label {
+        font-size: 24px;
+        color: #ddd;
+        cursor: pointer;
+        transition: color 0.2s ease;
+    }
+
+    .rating input[type="radio"] {
+        display: none;
+    }
+
+    .rating input[type="radio"]:checked ~ label,
+    .rating label:hover,
+    .rating label:hover ~ label {
+        color: #ffd700;
+    }
+
+    
+    .success-message {
+         display: none;
+         text-align: center;
+         color: #4caf50;
+         margin-top: 10px;
+        }
+
+    .countdown {
+         display: none;
+         text-align: center;
+         color: #555;
+         font-weight: bold;
+        }
+    @media (max-width: 600px) {
+        form {
+            padding: 20px;
+        }
+    }
+</style>
